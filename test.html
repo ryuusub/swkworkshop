@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>簡単な動きのあるページ</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSSファイルをリンク -->
 </head>
 <body>
-    
+    <div class="container">
+        <h1 id="main-title">動きのあるWebページ</h1>
+        <p id="description">ボタンを押すと、下のテキストが表示されたり消えたりします。</p>
+        <button id="toggle-button">テキストの表示/非表示</button>
+        <p id="toggle-text" class="hidden">このテキストが表示されたり消えたりします！</p>
+    </div>
+
+    <script src="script.js"></script> <!-- JavaScriptファイルをリンク -->
 </body>
 </html>
