@@ -1,7 +1,7 @@
 /* 全体のスタイル */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #e0f7fa; /* 明るい水色に変更 */
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,7 +13,7 @@ body {
 /* コンテンツを中央に配置 */
 .container {
     text-align: center;
-    background-color: white;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -21,13 +21,13 @@ body {
 
 /* タイトルのスタイル */
 #main-title {
-    color: #333;
+    color: #00796b; /* 深緑色に変更 */
 }
 
 /* ボタンのスタイル */
 #toggle-button {
     padding: 10px 20px;
-    background-color: #3498db;
+    background-color: #ff7043; /* 明るいオレンジ色に変更 */
     color: white;
     border: none;
     border-radius: 5px;
@@ -36,7 +36,7 @@ body {
 }
 
 #toggle-button:hover {
-    background-color: #2980b9;
+    background-color: #f4511e; /* ホバー時の色を濃いオレンジに変更 */
 }
 
 /* 表示/非表示にするテキスト */
